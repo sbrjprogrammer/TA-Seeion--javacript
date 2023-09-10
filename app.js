@@ -376,27 +376,39 @@
 
 
 
-async function api(){
+// async function api(){
  
 
-    try{
-        let data = await fetch('https://jsonplaceholder.typicode.com/users')
-        let convertedData= await data.json()
-        console.log(convertedData)
+//     try{
+//         let data = await fetch('https://jsonplaceholder.typicode.com/users')
+//         let convertedData= await data.json()
+//         console.log(convertedData)
 
-    }
-    catch(error){
-        console.log(error)
-    }
-
-
+//     }
+//     catch(error){
+//         console.log(error)
+//     }
 
 
 
-}
 
-api()
 
+// }
+
+// api()
+
+
+// function abc(x){
+//     return function(y){
+
+//         return x+y
+//     }
+// }
+
+
+// var called= abc(5)(8)
+
+// console.log(called)
      
 
 
